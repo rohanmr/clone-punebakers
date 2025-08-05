@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.custom_line_spacing {
+    letter-spacing: 0.2em;
+    font-size: 13px;
+
+}
+
+.latter_spacing {
+    letter-spacing: 0.2em;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.text-font {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.text-font p {
+    font-size: 20px;
+    padding: 0 100px;
+}
+
+.parallax-section {
+
+    background-image: url('./assets/ashtavinayak_7.png');
+
+    /* Replace with your image path */
+    min-height: 500px;
+    /* Set a desired height for the parallax section */
+    background-attachment: fixed;
+    /* This is the key for the parallax effect */
+    background-position: center;
+    /* Center the background image */
+    background-repeat: no-repeat;
+    /* Prevent the image from repeating */
+    background-size: cover;
+    /* Ensure the image covers the entire section */
+    position: relative;
+    /* Needed for positioning content within */
+    z-index: 1;
+    /* Ensure the background is behind the foreground content */
+}
+
+.hero_btn {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+}
+
+.hero_btn:hover {
+    background-color: white;
+    color: black;
+    opacity: 0.8;
+    transition: all 0.5s ease-in-out;
+}
+
+
+.hero_text {
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Optional: Style for the foreground content */
+.parallax-section .container {
+    padding-top: 100px;
+    /* Adjust as needed */
+    padding-bottom: 100px;
+    /* Adjust as needed */
+    color: white;
+    /* Example: set text color for readability */
+    text-align: center;
+    z-index: 2;
+    /* Ensure content is above the background */
+}
+
+.list_line_space {
+    line-height: 35px;
+
+}
+
+.footer_font {
+    font-size: small;
+}
