@@ -4,11 +4,9 @@
     box-sizing: border-box;
 }
 
-
 .custom_line_spacing {
     letter-spacing: 0.2em;
     font-size: 13px;
-
 }
 
 .latter_spacing {
@@ -27,9 +25,7 @@
 }
 
 .parallax-section {
-
     background-image: url('./assets/ashtavinayak_7.png');
-
     /* Replace with your image path */
     min-height: 500px;
     /* Set a desired height for the parallax section */
@@ -65,7 +61,6 @@
     transition: all 0.5s ease-in-out;
 }
 
-
 .hero_text {
     font-size: 60px;
     font-family: 'Times New Roman', Times, serif;
@@ -86,7 +81,6 @@
 
 .list_line_space {
     line-height: 35px;
-
 }
 
 .footer_font {
